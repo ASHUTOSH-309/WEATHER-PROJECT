@@ -7,7 +7,7 @@
 * Geoapify: [https://www.geoapify.com/geocoding-api](https://www.geoapify.com/geocoding-api) (for Geocoding)
 
 ## Live Link
-### This Project is deployed at: []()
+### This Project is deployed at: [https://weather-project-e1yx.onrender.com/](https://weather-project-e1yx.onrender.com/)
 
 ## To run locally (must have Node.js and NPM installed)
 1. Clone this project on your local device & install necessary packages
