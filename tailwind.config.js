@@ -10,7 +10,8 @@ export default {
     extend: {},
   },
   plugins: [
-    scrollbarPlugin
+    scrollbarPlugin,
+    require('@tailwindcss/forms'),
   ],
 }
 
