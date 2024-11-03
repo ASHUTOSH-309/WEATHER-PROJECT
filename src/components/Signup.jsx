@@ -124,7 +124,10 @@ const Signup =() => {
                     placeholder="Password..."
                   />
                 </div>
-                <button className="bg-[#605BFF] rounded-xl w-[280px] sm:w-[325px] h-[40px] font-bold text-white">
+                <button className="bg-[#605BFF] rounded-xl w-[280px] sm:w-[325px] h-[40px] font-bold text-white"
+                  onClick={()=>navigate("/landing")}
+                
+                >
                   Sign Up
                 </button>
                 <span>Already have an account? <Link to="/login" className="text-blue-950" >Log in</Link></span>

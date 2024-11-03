@@ -116,7 +116,9 @@ const SignIn =() => {
                   />
                 </div>
              
-                <button className="bg-[#605BFF] rounded-xl w-[280px] sm:w-[325px] h-[40px] font-bold text-white">
+                <button className="bg-[#605BFF] rounded-xl w-[280px] sm:w-[325px] h-[40px] font-bold text-white"
+                  onClick={()=>navigate("/landing")}
+                >
                   Login
                 </button>
                 <span>New User? Create a new Account <Link to="/" className="text-blue-950" >Sign Up</Link></span>
