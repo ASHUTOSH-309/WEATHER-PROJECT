@@ -1,6 +1,8 @@
 import {useContext} from 'react'
 import AppContext from '../context/AppContext'
 
+import PropTypes from 'prop-types'
+
 const Card = ({children}) => {
     const {theme} = useContext(AppContext)
     return (
@@ -12,4 +14,9 @@ const Card = ({children}) => {
     )
 }
 
+Card.propTypes = {
+    children: PropTypes.node.isRequired
+}
+
 export default Card
+
